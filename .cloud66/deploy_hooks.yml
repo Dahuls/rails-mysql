@@ -1,0 +1,8 @@
+first_thing:
+ - command: ECHO "1111111"
+   target: any
+   execute: true
+
+    - command: ECHO "2222222222"
+   target: any
+   execute: true
