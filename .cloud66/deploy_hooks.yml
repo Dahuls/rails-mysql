@@ -3,6 +3,6 @@ first_thing:
    target: any
    execute: true
 
-    - command: ECHO "2222222222"
+ - command: ECHO "2222222222"
    target: any
    execute: true
