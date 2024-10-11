@@ -1,5 +1,5 @@
 first_thing:
- - command: echo "testing"
+ - command: echo "testing changes"
    target: any
    execute: true
 
