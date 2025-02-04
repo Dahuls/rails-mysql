@@ -1,5 +1,4 @@
     after_haproxy: # Hook point
       - command: ls -al # Hook type
         target: any # Hook fields
-        apply_during: build_only
         execute: true
