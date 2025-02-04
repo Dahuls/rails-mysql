@@ -1,0 +1,4 @@
+    after_haproxy: # Hook point
+      - command: ls -al # Hook type
+        target: any # Hook fields
+        execute: true
