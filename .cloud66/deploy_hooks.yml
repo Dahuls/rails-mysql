@@ -1,3 +1,7 @@
+after_checkout:
+  - command: ls -al
+    target: any
+    execute: true
 after_haproxy: # Hook point
   - command: ls -al # Hook type
     target: any # Hook fields
