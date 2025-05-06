@@ -1,3 +1,8 @@
+first_thing: # Hook point
+  - command: sudo apt install wkhtmtopdf=<version> -y # Hook type
+    apply_during: build_only
+    target: any # Hook fields
+    execute: true
 after_checkout:
   - command: ln -s $SHARED_PATH/config/settings.yml $STACK_PATH/config/settings.yml
     target: rails
