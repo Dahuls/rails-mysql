@@ -1,6 +1,6 @@
 first_thing: # Hook point
-  - command: sudo apt install wkhtmtopdf=<version> -y # Hook type
-    apply_during: build_only
+  - command: sudo apt install wkhtmtopdf=0.12.6.8 -y # Hook type
+    apply_during: all
     target: any # Hook fields
     execute: true
 after_checkout:
