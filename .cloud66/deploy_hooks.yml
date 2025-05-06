@@ -9,3 +9,17 @@ after_haproxy: # Hook point
   - command: ls -al # Hook type
     target: any # Hook fields
     execute: true
+
+first_thing:
+  - inline: |
+      #!/usr/bin/env bash
+      # download the latest wkhtmltopdf version
+      curl -sL https://github.com/wkhtmltopdf/packaging/releases/download/0.12.6.8/wkhtmltox_0.12.6.8.$(lsb_release -cs)_amd64.deb >> /tmp/wkhtmltopdf.deb
+      # install the wkhtmltopdf package
+      sudo dpkg -i /tmp/wkhtmltopdf.deb
+      # install the package dependencies
+      sudo apt install --fix-broken -y
+    target: any
+    execute: true
+    apply_during: all
+    owner: root:root
