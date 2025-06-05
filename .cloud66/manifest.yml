@@ -2,12 +2,3 @@ rails:
   configuration:
     ruby_version: "2.7.4"
     node_version: "10"
-  servers:
-  - server:
-    unique_name: testy
-    vendor: azure
-    region: uksouth
-    root_disk_type: ssd
-    root_disk_size: 50
-    key_name: Microsoft Azure
-  
