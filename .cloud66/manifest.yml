@@ -5,5 +5,5 @@ rails:
   servers:
   - server:
     unique_name: testy
-      root_disk_type: ssd
+    root_disk_type: ssd
   
