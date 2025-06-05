@@ -5,6 +5,9 @@ rails:
   servers:
   - server:
   unique_name: testy
+  vendor: azure
+  region: uksouth
   root_disk_type: ssd
+  root_disk_size: 50
   key_namne: Microsoft Azure
   
