@@ -4,7 +4,7 @@ rails:
     node_version: "10"
   servers:
   - server:
-    unique_name: testy
-    root_disk_type: ssd
-    key_namne: Microsoft Azure
+  unique_name: testy
+  root_disk_type: ssd
+  key_namne: Microsoft Azure
   
