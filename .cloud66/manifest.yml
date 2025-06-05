@@ -6,4 +6,5 @@ rails:
   - server:
     unique_name: testy
     root_disk_type: ssd
+    key_namne: Microsoft Azure
   
