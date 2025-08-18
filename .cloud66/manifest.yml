@@ -6,4 +6,4 @@ postgresql:
   groups:
     oldVersion:
       configuration:
-        version: "9.6.20"
+        version: "9.6"
