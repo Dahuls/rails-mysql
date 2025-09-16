@@ -2,8 +2,4 @@ rails:
   configuration:
     ruby_version: "2.7.4"
     node_version: "10"
-postgresql:
-  groups:
-    oldVersion2:
-      configuration:
-        version: "9.6"
+
