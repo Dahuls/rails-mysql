@@ -2,4 +2,18 @@ rails:
   configuration:
     ruby_version: "2.7.5"
     node_version: "10"
+elasticsearch:
+  groups:
+    eightnineteen:
+      configuration:
+        version: 8.19.10
+    ninetwo:
+      configuration:
+        version: 9.2.4
+    nineone:
+      configuration:
+        version: 9.1.10
+    ninezero:
+      configuration:
+        version: 9.0.8
 
