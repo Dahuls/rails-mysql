@@ -4,4 +4,4 @@ rails:
     node_version: "10"
 load_balancer:
   configuration:
-    httpchk: HEAD / HTTP/1.1\r\nHost:haproxy  
+    httpchk: "HEAD / HTTP/1.1\r\nHost:haproxy"
