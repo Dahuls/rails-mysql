@@ -2,4 +2,6 @@ rails:
   configuration:
     ruby_version: "2.7.5"
     node_version: "10"
-
+load_balancer:
+  configuration:
+    httpchk: HEAD / HTTP/1.1\\r\\nHost:haproxy  
