@@ -2,5 +2,6 @@ rails:
   configuration:
     ruby_version: "2.7.5"
     node_version: "10"
-
+loadbalancer:
+  configuration:
 
