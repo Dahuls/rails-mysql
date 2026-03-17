@@ -1,14 +1,14 @@
-after_checkout:
+#after_checkout:
 #  - command: ln -s $SHARED_PATH/config/settings.yml $STACK_PATH/config/settings.yml
-  - command: ls -al
-    target: rails
-    run_on: all_servers
-    run_as: root
-    execute: true
-after_haproxy: # Hook point
-  - command: ls -al # Hook type
-    target: any # Hook fields
-    execute: true
+#  - command: ls -al
+#    target: rails
+#    run_on: all_servers
+ #   run_as: root
+#    execute: true
+#after_haproxy: # Hook point
+#  - command: ls -al # Hook type
+#    target: any # Hook fields
+#    execute: true
 
 #first_thing:
  # - inline: |
